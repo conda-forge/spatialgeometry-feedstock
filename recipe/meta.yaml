@@ -23,9 +23,9 @@ requirements:
   host:
     - numpy
     - pip
-    - python >=3.6
+    - python
   run:
-    - python >=3.6
+    - python
     - spatialmath-python >=1.0.0
     - numpy
 
