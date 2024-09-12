@@ -11,7 +11,7 @@ source:
   sha256: 98b2b1023eed6197d26f31cf4643c51d1a41059ac6036a10b16dc389ec6af5a6
 
 build:
-  number: 2
+  number: 3
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -25,6 +25,7 @@ requirements:
   host:
     - numpy
     - pip
+    - setuptools
     - python
   run:
     - python
