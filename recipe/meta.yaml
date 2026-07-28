@@ -1,5 +1,5 @@
 {% set name = "spatialgeometry" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/spatialgeometry-{{ version }}.tar.gz
-  sha256: 98b2b1023eed6197d26f31cf4643c51d1a41059ac6036a10b16dc389ec6af5a6
+  sha256: 5d5986637ed2a1130d2d1131049f3638ae6e10668c1e93471ddd3665e261f563
 
 build:
-  number: 4
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
