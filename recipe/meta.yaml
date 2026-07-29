@@ -26,6 +26,7 @@ requirements:
     - numpy
     - pip
     - setuptools
+    - scikit-build-core
     - python
   run:
     - python
