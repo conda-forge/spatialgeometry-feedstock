@@ -20,6 +20,7 @@ requirements:
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - cmake
+    - make  # [unix]
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
@@ -29,6 +30,7 @@ requirements:
     - setuptools
     - scikit-build-core
     - python
+    - nanobind
   run:
     - python
     - spatialmath-python >=1.0.0
